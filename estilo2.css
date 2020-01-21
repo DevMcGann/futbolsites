@@ -1,0 +1,349 @@
+/* fuentes:
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+*/
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    width: 1920px;
+    height:2391px
+    
+}
+
+/*  Clases de uso general */
+.bg-rojo{
+    background: #D81F30;
+}
+
+.bg-azuloscuro{
+    background: #233558;
+}
+
+.bg-fuccia{
+    background: #B02497;
+}
+
+.bg-amarillo{
+    background: #FFAA00;
+}
+.bg-blanco{
+    background: #FFFFFF;
+}
+
+.bg-negro{
+    background: #000000;
+}
+.texto-negro{
+    color:black;
+}
+.texto-blanco{
+    color:white;
+}
+.fira-sb-45{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    width: 660px;
+    height: 166px;
+    background-color:black;
+    letter-spacing: 0;
+    opacity: 1;
+    display: inline-block;
+}
+.fira-m-22{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal;
+    font-size: 22px; 
+}
+.fira-m-20{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;    
+}
+
+.span{
+    width: 110px;
+    height: 25px;
+    opacity: 1;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-chico{
+    opacity: 1;
+    min-height: 25px;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    opacity: 1;
+    display:flex;
+    padding: 5px 5px;
+    
+}
+
+
+/************************ BARRA *****************************/
+
+header{
+margin-top: 0px;
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 70px;
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-bars{
+    top: 26px;
+left: 40px;
+width: 24px;
+height: 19px;
+opacity: 1;
+position: absolute;
+color:white;
+}
+
+#logo{
+    top: 18px;
+    left: 125px;
+    width: 157px;
+    height: 33px;
+    opacity: 1;
+    position: absolute;
+}
+
+#bandera{
+    top: 25px;
+left: 297px;
+width: 28px;
+height: 20px;
+opacity: 1;
+position: absolute;
+}
+
+#pais{
+margin-top: 23px;
+left: 335px;
+width: 27px;
+height: 24px;
+text-align: left;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+position: absolute;
+}
+
+.fa-chevron-down{
+    top: 31px;
+left: 371px;
+width: 18px;
+height: 9px;
+color:white;
+opacity: 1;
+position: absolute;
+}
+
+nav{
+top: 23px;
+left: 479px;
+width: 776px;
+height: 24px;
+text-align: left;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 20px 20px;
+font-weight: 600;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+position: absolute;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+li{
+    list-style: none;    
+}
+
+#twitter{
+    top: 25px;
+left: 1512px;
+width: 24px;
+height: 19px;
+color:white;
+opacity: 1;
+position: absolute;
+}
+
+#facebook{
+top: 23px;
+left: 1560px;
+width: 13px;
+height: 24px;
+color:white;
+opacity: 1;
+position: absolute;
+}
+
+#instagram{
+top: 23px;
+left: 1596px;
+width: 24px;
+height: 24px;
+color:white;
+opacity: 1;
+position: absolute;
+}
+
+.buscar{
+margin-top:23px;
+left: 1795px;
+width: 54px;
+height: 24px;
+text-align: left;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+position: absolute;
+}
+
+.fa-search{
+top: 26px;
+left: 1860px;
+width: 18px;
+height: 18px;
+color:white;
+opacity: 1;
+position: absolute;
+}
+
+
+
+/*  ***************  CONTENIDO ***********************   */
+a{
+    text-decoration: none;
+}
+
+
+
+.contenido{
+    height:890px;
+    width: 1080px;
+    margin-left: 416px;
+    margin-right: 426px;
+    margin-top: 50px;
+    margin-bottom: 241px;
+}
+
+.main_row{
+    display: flex;
+    font-display: row;
+}
+
+.noticia_principal{
+    max-height: 539px;
+    max-width: 715px;
+    position: relative;
+}
+.noticia_principal img{
+    height: 539px;
+    width: 715px;
+    
+}
+.noticia_principal .texto_noticia{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:341px;
+    left:20px;
+    bottom:20px;
+    z-index: 999999;
+        
+}
+
+
+
+/*  ********* Columna de 2 *********/
+.main_row .col{
+    height: 539px;
+    width: 352px;
+}
+
+.main_row .col img{
+    height: 264px;
+    width: 352px;   
+}
+
+.noticia_1 {
+    max-height: 264px;
+    max-width: 352px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+
+.noticia_1  .texto_noticia{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:138px;
+    left:20px;
+    bottom:20px;
+    z-index: 999999;
+
+}
+
+
+
+/* ********************* FILA de 4 NOTICIAS *******************/
+
+.second_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.fila{
+    position: relative;
+    height: 196px;
+    width: 261px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.fila img{
+    height: 196px;
+    width: 261px;
+}
+
+.fila .texto_noticia{
+    position: absolute;
+    top:171px;
+}
+
+
+
+
